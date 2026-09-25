@@ -10,6 +10,6 @@ namespace HotelWebApiDemo.Models
         public int Capacity { get; set; }
         public RoomStatus Status { get; set; }
         public string Description {get;set;}
-        
+        public string Description {get;set;}
     }
 }
