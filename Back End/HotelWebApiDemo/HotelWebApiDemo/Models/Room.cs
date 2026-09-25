@@ -9,5 +9,7 @@ namespace HotelWebApiDemo.Models
         public decimal Price { get; set; }
         public int Capacity { get; set; }
         public RoomStatus Status { get; set; }
+        public string Description {get;set;}
+        
     }
 }
